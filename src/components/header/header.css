@@ -1,0 +1,81 @@
+.container{
+    height: 120px;
+    background-color: #29CCF0;
+    padding: 75px;
+}
+
+.font{
+    font-family: 'Revalia', cursive;
+    text-align: center;
+    font-size: 35px;
+}
+
+.branco {
+    color: white;
+}
+
+.preto{
+    color: black;
+}
+
+a{
+    margin-right: 5%;
+    font-size: 20px;
+    font-family: 'Revalia', cursive;
+}
+
+
+
+.search-text{
+    font-size: 20px;
+    font-family: 'Revalia', cursive;
+    margin-right: 1%;
+}
+
+.search-button{
+    height: 25px;
+    width: 25px;
+    border: none;
+    background: none;
+    
+}
+
+.input-field{
+    height: 25px;
+    width: 200px;
+    background-color: #C4C4C4;
+    margin-bottom: 40%;
+    
+    
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    font-family: 'Revalia', cursive;
+    font-size: 14px;
+    opacity: 1; /* Firefox */
+  }
+
+.campo-login{
+    margin-left: 1%;
+}
+
+.login-button{
+    height: 25px;
+    width: 25px;
+}
+.cart-Image{
+    
+    height: 50px;
+    width: 50px;
+    margin-left: 5%;
+    
+    
+}
+
+.cart-link{
+    
+    margin-left:  100%;
+    /*margin-bottom: 10px;*/
+        
+}
