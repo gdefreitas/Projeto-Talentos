@@ -1,33 +1,51 @@
-# Getting Started with Create React App
+# Projeto Talentos ----GGFarma-----
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+### `Descrição`
+Trata-se do desenvolvimento de um projeto de  front-end, a fim de se consolidar os conteúdos vistos nos cursos com foco em no framework React js.
 
-### `npm start`
+### `Projeto`
+Está em desenvolvimento, um sistema de farmácia, com o nome fantasia de GGFarma.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `Funcionalidades`
 
-### `npm test`
+O sistema terá as seguintes funcionalidades:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+•	Cadastro de usuário.\
+• Login.\
+•	Cadastro de medicamento, onde serão inseridos os medicamentos.\
+•	Busca de medicamentos cadastrados.\
+•	Compra de medicamentos.\
+•	Carrinho de Compras.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Descrição das Funcionalidades`
+O Cadastro de usuário será realizado a partir da inserção de dados nos seguintes campos: 
+•	Nome
+•	Telefone
+•	Email
+•	Senha
+•	Confirmar senha
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+O login, será destinado para usuários ja cadastrados, dessa forma serão solicitados ao mesmo, apenas email e senha.
+
+A inserção de medicamentos se dará na página cadastro de medicamento, onde serão solicitados nome, descrição e uma imagem do produto.
+
+
+Os medicamentos cadastrados serão exibidos na tela home, em controle de estoque, sendo evidenciados com nome e descrição básica sobre o mesmo, tendo também a opção de compra.
+
+
+Após a realização de compra, o medicamento será enviado para o carrinho, onde ao acessar o mesmo, será possível visualizar todos os medicamentos selecionados pelo usuário
+
+
+
+
+
+
 
 ### `npm run eject`
 
