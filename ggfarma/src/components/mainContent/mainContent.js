@@ -7,9 +7,11 @@ import './mainContent.css'
 
 function mainContent() {
     return (
-
         <div>
+
             <h1 class="laranjado">Controle de estoque</h1>
+        <div class = "style-containers">
+            
             
             <div class="medicine-container">
                 <a href="#"><img class="image" src={imagem1}/></a>
@@ -28,6 +30,7 @@ function mainContent() {
                 <h1 class="texto"><strong>Remédio 3</strong></h1>
                 <button class="botao-comprar">Comprar</button>
             </div>
+        </div>
         </div>
     );
 }

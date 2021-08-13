@@ -1,10 +1,17 @@
 .container{
-    height: 120px;
+    height: 165px;
     background-color: #29CCF0;
-    padding: 75px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .font{
+    /*display: flex;*/
+    
+    
+    
     font-family: 'Revalia', cursive;
     text-align: center;
     font-size: 35px;
@@ -42,10 +49,13 @@ a{
 }
 
 .input-field{
+    /*display: flex;*/
+    
     height: 25px;
     width: 200px;
     background-color: #C4C4C4;
     margin-bottom: 40%;
+
     
     
 }
@@ -58,6 +68,8 @@ a{
   }
 
 .campo-login{
+    /*display: flex;
+    /*justify-content: flex-start;*/
     margin-left: 1%;
 }
 
@@ -67,9 +79,11 @@ a{
 }
 .cart-Image{
     
+    
     height: 50px;
     width: 50px;
     margin-left: 1%;
+    
     
     
 }

@@ -4,14 +4,22 @@
     height: 560px;
     margin: 5%;
     border-radius: 90px;
-    flex-direction: column;
+      
 }
+
+.style-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 
 .image {
     width: 60%;
     height: 60%;
     margin-top: 8px;
     margin-left: 70px;
+    border-radius: 20%;
 }
 
 .laranjado {
@@ -20,6 +28,7 @@
     font-family: 'Revalia', cursive;
     margin-top: 3.5%;
     margin-left: 3.5%;
+    
 }
 
 .texto {
