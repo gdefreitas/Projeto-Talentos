@@ -1,0 +1,44 @@
+.container{
+    height: 165px;
+    background-color: #29CCF0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.font{
+      
+    font-family: 'Revalia', cursive;
+    text-align: center;
+    font-size: 35px;
+    
+   
+}
+a{
+    margin-right: 5%;
+    font-size: 30px;
+    font-family: 'Revalia', cursive;
+}
+
+.branco {
+    color: white;
+}
+
+.campo-home{
+    padding: 22%;
+    margin-left: 10%;
+    
+}
+
+.car-button{
+    height: 50px;
+    width: 50px;
+    border: none;
+    background: none;
+}
+.car-image{
+    height: 50px;
+    width: 50px;
+    
+     
+}

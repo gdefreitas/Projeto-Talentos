@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+
 import './header.css';
 import lupaImage from "../../assets/lupa.png"
 import cartImage from "../../assets/cart.png"
@@ -21,7 +22,7 @@ function Header() {
 
           <button class = "search-button"><img class="search-button" src={lupaImage}/></button>
           
-          <a href="#"><img class="cart-Image" src={cartImage}/></a>
+          <button class ="cart-button"><img class="cart-Image" src={cartImage}/></button>
         </div>
         
       </div>

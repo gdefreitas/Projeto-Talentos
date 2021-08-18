@@ -5,7 +5,7 @@ import imagem3 from "../../assets/imagem3.png"
 
 import './mainContent.css'
 
-function mainContent() {
+function MainContent() {
     return (
         <div>
 
@@ -35,4 +35,4 @@ function mainContent() {
     );
 }
 
-export default mainContent;
+export default MainContent;
