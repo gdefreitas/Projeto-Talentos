@@ -12,16 +12,19 @@ function InsertItemsContent() {
                 
                 <div class="page-content">
                     <div>
-                        <a class="place-name">Nome</a>
+                        <h3 class="place-name">Nome</h3>
                         <input placeholder="Nome do Medicamento" class="input-content" ></input>
-                    </div>
-                    <div class="place-img">
-                        <a>Imagem</a>
-                        <input placeholder="submeter Imagem" class="input-content-image" ></input>
+                        <br/>
+                        <h3 class="place-name">Imagem</h3>
+                        <div class="image-background">
+                            <p class="text">submeter Imagem</p>
+                        </div>
+                        
+                        <br/>
                         <button class = "up-button"><img src={uploadImage}/></button>
                     </div>
                     <div class="place-desc">
-                        <a>Descrição</a>
+                        <h3 class="place-name">Descrição</h3>
                         <input placeholder="Descreva o medicamento" class="input-content-desc" ></input>
                     </div>
 
