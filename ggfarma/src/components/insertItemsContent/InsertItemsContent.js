@@ -30,6 +30,11 @@ function InsertItemsContent() {
 
 
                 </div>
+                        <div class = "position">
+                            <button class = "ok-button">Confirmar</button>
+
+                        </div>
+
             </form>
         </div>
 
